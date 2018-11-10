@@ -1,0 +1,24 @@
+{
+    "name": "kelbie",
+    "version": "1.0.0",
+    "description": "xd",
+    "main": "app.js",
+    "scripts": {
+        "test": "npm test",
+        "lint": "eslint api/",
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "mongoose": "^5.2.9"
+    },
+    "devDependencies": {
+        "eslint": "^4.17.0"
+    },
+    "engines": {
+        "node": ">=8.9.4"
+    }
+}
