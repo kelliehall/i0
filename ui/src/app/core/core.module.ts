@@ -5,10 +5,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreRoutingModule } from './core-routes.module';
 import { CoreComponent } from './core.component';
 import { MatIconModule } from '@angular/material/icon';
+import { TacoComponent } from './taco/taco.component';
+import { ResumeComponent } from './resume/resume.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     declarations: [
-        CoreComponent
+        CoreComponent,
+        TacoComponent,
+        ResumeComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule,
